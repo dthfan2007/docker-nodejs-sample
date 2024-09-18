@@ -59,19 +59,19 @@ Das Klonen des GitHub Repository ist nun erfolgreich abgeschlossen.
 
 #### Installation von Docker
 
-Wenn Sie Docker bereits installiert haben, können sie diesen Schritt überspringen. Um Docker zu installieren, folgen Sie [diesem Link](https://docs.docker.com/get-started/get-docker/). Danach können sie mit der Anleitung Docker installieren.
+Wenn Sie Docker bereits installiert haben, können sie diesen Schritt überspringen. Um Docker zu installieren, folgen Sie [diesem Link](https://docs.docker.com/get-started/get-docker/). Danach können sie mit der Anleitung Docker installieren, die dort verlinkt ist, weitermachen.
 
 ---
 
 #### Aktivierung von WSL
 
-Um Docker verwenden zu können, müssen Sie WSL (Windows Subsystem for Linux) einrichten. Suchen sie dazu in den Einstellungen nach **Windows-Features ein- oder ausschalten**. Danach suchen sie folgende 2 Feautes und aktivieren Sie sie.
+Um Docker verwenden zu können, müssen Sie WSL (Windows Subsystem for Linux) einrichten. Suchen sie dazu in den Einstellungen nach **Windows-Features ein- oder ausschalten**. Danach suchen sie folgende 2 Features und aktivieren Sie sie.
 
 ![Activating WSL, step 1 - Activating Windows Features](img/activate_wsl.png)
 
-Nun könnten sie eine Linux-Distribution wie Ubuntu installieren.
+Nun könnten Sie eine Linux-Distribution wie Ubuntu installieren.
 
-Als Nächstes müssen wir die Standartversion von WSL einstellen. Öffnen sie dazu ihr Terminal und führen sie den Befehl `wsl --set-default-version 2` aus. Wenn keine Fehlermeldung erscheint, haben sie alles richtig gemacht und können nun ihren ersten Docker Container erstellen.
+Als Nächstes müssen wir die Standartversion von WSL einstellen. Öffnen sie dazu ihr Terminal und führen Sie den Befehl `wsl --set-default-version 2` aus. Wenn keine Fehlermeldung erscheint, haben Sie alles richtig gemacht und können nun ihren ersten Docker Container erstellen.
 
 ![Activating WSL, step 2 - Changing default WSL version to 2](img/setting_default_wsl_version.png)
 
@@ -83,7 +83,7 @@ Um ein Docker-Container zu erstellen, beginnt man mit `docker init`. Jedoch muss
 
 ![Creating a Docker container, step 1 - change directory to the project folder](img/cd_project.png)
 
-Danach können sie `docker init` ausführen. Docker sucht mit diesem Befehl nach einem Container mit dem Namen ihres Ordners. Falls keiner existiert, leitet Daemon einen Download-Prozess aus dem Docker Repository ein und erstellt einen Container mit ihrem Ordnernamen.
+Danach können Sie `docker init` ausführen. Docker sucht mit diesem Befehl nach einem Container mit dem Namen ihres Ordners. Falls keiner existiert, leitet Daemon einen Download-Prozess aus dem Docker Repository ein und erstellt einen Container mit ihrem Ordnernamen.
 
 ![Creating a Docker container, step 2 - initialize your container](img/docker_init.png)
 
@@ -93,10 +93,10 @@ Als nächstes geben wir den Befehl `docker compose up --build` ein. Dies baut un
 
 ![Creating a Docker container, step 3 - build your container](img/docker_compose.png)
 
-Wenn der Befehl erfolgreicht abläuft, können sie mit der Tasteneingabe `V` Docker Desktop öffnen, und von da aus die Webseite. Falls das nicht geht, können sie auch über localhost:<Ihr Port, den sie eingestellt haben> zur seite gelangen. Bei uns ist das localhost:3000. Anderenfalls können sie die Website auch via der Docker Desktop App öffnen.
+Wenn der Befehl erfolgreich abläuft, können sie mit der Tasteneingabe `V` Docker Desktop öffnen, und von da aus die Webseite. Falls das nicht geht, können sie auch über localhost:<Ihr Port, den sie eingestellt haben> zur Seite gelangen. Bei uns ist das localhost:3000. Anderenfalls können Sie die Website auch via der Docker Desktop App öffnen.
 
 ![Opening the Repo via Docker Desktop, step 1 - open the Docker Containers Menu](img/start_repo_via_docker-1.png)
 
-Danach können sie im geöffneten Menü den Server starten und stoppen, oder die Webseite aufrufen
+Danach können Sie im geöffneten Menü den Server starten und stoppen, oder die Webseite aufrufen
 
 ![Opening the Repo via Docker Desktop, step 2 - start the repo](img/start_repo_via_docker-2.png)
